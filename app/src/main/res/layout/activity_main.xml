@@ -7,6 +7,18 @@
     android:background="@android:color/holo_orange_light"
     tools:context=".MainActivity">
 
+    <FrameLayout
+        android:id="@+id/fragment_holder"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
     <android.support.design.widget.TextInputLayout
         android:id="@+id/pokemon_layout"
         android:layout_width="match_parent"
